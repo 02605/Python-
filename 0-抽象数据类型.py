@@ -25,6 +25,7 @@ class Bag(object):
         for item in self._items:
             yield item
 
+
 def test_adt():
 
     bag = Bag()
@@ -39,6 +40,7 @@ def test_adt():
 
     for each_one in bag:
         print(each_one)
+
 
 if __name__ == '__main__':
     test_adt()
